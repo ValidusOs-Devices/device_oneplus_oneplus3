@@ -20,12 +20,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/oneplus3/device.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/tipsy/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/validus/config/nfc_enhanced.mk)
 
-# Inherit some common Tipsy stuff.
-$(call inherit-product, vendor/tipsy/config/common_full_phone.mk)
+# Inherit some common Validus stuff.
+$(call inherit-product, vendor/validus/config/common_full_phone.mk)
 
-PRODUCT_NAME := tipsy_oneplus3
+PRODUCT_NAME := validus_oneplus3
 PRODUCT_DEVICE := oneplus3
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
