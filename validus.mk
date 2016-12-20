@@ -32,4 +32,6 @@ PRODUCT_BRAND := OnePlus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	DEVICE_MAINTAINERS="Martin Coulon(Martinusbe)"
 TARGET_VENDOR := oneplus
