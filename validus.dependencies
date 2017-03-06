@@ -1,6 +1,6 @@
 [
   {
-    "repository": "TeslaOs-Devices/device_oppo_common",
+    "repository": "Tesla-M-Devices/device_oppo_common",
     "target_path": "device/oppo/common",
     "branch": "ges"
   },
