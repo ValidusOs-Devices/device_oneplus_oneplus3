@@ -20,11 +20,6 @@
     "branch": "test"
   },
   {
-    "repository": "BigTopKrazies/proprietary_vendor_qcom_binaries",
-    "target_path": "vendor/qcom/binaries",
-    "branch": "n7.1"
-  },
-  {
     "repository": "SlimRoms/vendor_nxp-nfc_opensource_frameworks",
     "target_path": "vendor/nxp-nfc/opensource/frameworks",
     "branch": "ng7.1"
