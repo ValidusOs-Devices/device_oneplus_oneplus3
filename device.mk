@@ -229,6 +229,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl
 
+# Healthd
+PRODUCT_PACKAGES += \
+    android.hardware.health@1.0-impl
+
 # IPv6
 PRODUCT_PACKAGES += \
     ebtables \
