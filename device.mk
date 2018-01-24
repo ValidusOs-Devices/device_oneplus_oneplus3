@@ -391,6 +391,9 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:root/fstab.qcom
+
 # Recovery
 PRODUCT_PACKAGES += \
     librecovery_updater_op3
