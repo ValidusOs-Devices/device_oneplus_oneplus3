@@ -193,7 +193,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Camera2 \
+    Snap \
     libcamera_parameters_shim \
     libcamera_shim \
     camera.device@1.0-impl \
