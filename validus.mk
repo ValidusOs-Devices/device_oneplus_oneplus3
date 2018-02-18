@@ -23,6 +23,9 @@ $(call inherit-product, device/oneplus/oneplus3/device.mk)
 # Inherit some common Validus stuff.
 $(call inherit-product, vendor/validus/config/common_full_phone.mk)
 
+# Maintainer info
+PRODUCT_BUILD_PROP_OVERRIDES += DEVICE_MAINTAINERS="Martin Coulon (Martinusbe)"
+
 PRODUCT_NAME := validus_oneplus3
 PRODUCT_DEVICE := oneplus3
 PRODUCT_MANUFACTURER := OnePlus
